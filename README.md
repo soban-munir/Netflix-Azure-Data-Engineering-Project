@@ -1,17 +1,17 @@
 # Netflix-Azure-Data-Engineering-Project
 End-to-End Azure Data Engineering Project using Azure Data Factory, Databricks, Delta Lake, and Power BI.
-Project Overview
+## Project Overview
 
 This project demonstrates a complete end-to-end Azure Data Engineering pipeline integrating Azure Data Factory (ADF), Azure Databricks, Delta Lake, and Power BI.
 The goal of this project is to build a modern data lakehouse architecture capable of ingesting, transforming, and serving data for analytics using a fully automated and parameterized workflow.
 
- Architecture Overview
+ ### Architecture Overview
 
-Data Flow Summary:
+#### Data Flow Summary:
 
-Source: GitHub repository (raw data in JSON/CSV format).
+##### Source: GitHub repository (raw data in JSON/CSV format).
 
-Ingestion: Azure Data Factory pulls data from GitHub API and loads it into the Bronze layer of Azure Data Lake.
+##### Ingestion: Azure Data Factory pulls data from GitHub API and loads it into the Bronze layer of Azure Data Lake.
 
 Transformation: Azure Databricks performs data cleaning and processing in the Silver layer using Autoloader for incremental ingestion.
 
