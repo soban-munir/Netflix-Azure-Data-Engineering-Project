@@ -53,7 +53,6 @@ The goal of this project is to build a **modern data lakehouse architecture** ca
 | Storage | Azure Data Lake Storage (Gen2) |
 | Transformation Framework | Delta Lake Architecture (Bronze, Silver, Gold) |
 | Visualization | Power BI |
-| Source | GitHub Repository (Public API) |
 
 ---
 
